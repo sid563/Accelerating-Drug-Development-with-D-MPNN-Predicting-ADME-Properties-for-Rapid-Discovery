@@ -11,11 +11,13 @@ This project aims to develop and evaluate novel machine learning models for pred
     Identification of optimal models and techniques                                                By exploring the latest machine learning approaches, this project seeks to achieve unprecedented accuracy in lipophilicity prediction, transforming the drug discovery process.<br>
 **Methodology:**
 Our dataset consists of 12,859 unique SMILES representations of chemical compounds with corresponding lipophilicity values (logP), facilitating standardized input for our predictive model. The dataset encompasses a diverse range of chemical compounds, ensuring robustness and generalization capability, and undergoes preprocessing steps to ensure data integrity and suitability for predictive modeling. This comprehensive dataset enables accurate lipophilicity predictions, enhancing our understanding of this crucial property in drug discovery and development.
-![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/25adc9d3-5353-4264-a47e-2172f47dac22)
+
+![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/6676f481-d6da-42cb-8a28-f6b44f5b7ae7)
+
 
 ![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/d3bf1fcc-3c7f-4261-a721-45ff56b590be)  <br>
 Our model utilizes initial atom and bond features computed through RDKit and initializes node and edge features in the D-MPNN. To enhance performance, we extend the model by treating groups of atoms as hyper-atoms and encoding nodes with feature vectors, which are then processed through a neural network to produce a molecular embedding. This approach generalizes existing atom features to incorporate information about functional groups.
-![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/5ae88ef8-a94f-4ec4-8072-1bd076504d4b)
+![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/25adc9d3-5353-4264-a47e-2172f47dac22)
 ![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/9ff9a0b3-ae58-4b28-8b8b-9f7eba2a8bdf)
 
 <br>
