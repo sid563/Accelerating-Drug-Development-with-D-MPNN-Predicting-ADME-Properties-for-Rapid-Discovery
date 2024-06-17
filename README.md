@@ -15,8 +15,16 @@ Our dataset consists of 12,859 unique SMILES representations of chemical compoun
 ![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/d3bf1fcc-3c7f-4261-a721-45ff56b590be)  <br>
 Our model utilizes initial atom and bond features computed through RDKit and initializes node and edge features in the D-MPNN. To enhance performance, we extend the model by treating groups of atoms as hyper-atoms and encoding nodes with feature vectors, which are then processed through a neural network to produce a molecular embedding. This approach generalizes existing atom features to incorporate information about functional groups.
 ![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/5ae88ef8-a94f-4ec4-8072-1bd076504d4b)
+![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/9ff9a0b3-ae58-4b28-8b8b-9f7eba2a8bdf)
+
 <br>
-![image](https://github.com/sid563/Accelerating-Drug-Development-with-D-MPNN-Predicting-ADME-Properties-for-Rapid-Discovery/assets/111000492/a34e2e39-14d4-4bb9-9820-47ad96012c20)
+Directed MPNN (D-MPNN) is a variant of MPNN that exchanges messages along directed edges (bonds) to prevent "tottering" and capture meaningful relationships in molecular graphs. Unlike traditional MPNNs, D-MPNN propagates messages along directed edges, avoiding cyclic paths and aligning with belief propagation in probabilistic graphical models. This approach enhances the network's ability to capture structural characteristics and improve property prediction accuracy.
+<br>
+Ensemble learning combines multiple Directed Message Passing Neural Networks (D-MPNNs) to improve lipophilicity prediction accuracy and robustness. By training diverse models and aggregating their predictions, ensemble learning mitigates overfitting and captures a wider range of patterns in the data. This approach achieves superior predictive performance and provides valuable insights into prediction uncertainty.
+
+
+
+
 
 
 
